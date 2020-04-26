@@ -1,3 +1,4 @@
+#last update 26/04/2020 by fralaz1971
 #this is a very simple example of python and astropy usage
 #plots sources on a sky map (aitoff projection) reading (simplified) catalog data
 #from 3 different ascii csv files
