@@ -4,9 +4,10 @@
 #this is a very simple example of python and astropy usage
 #plots sources on a sky map (aitoff projection) reading (simplified) catalog data
 #from 3 different ascii csv files
-#needs python and astropy libs
-#to install astropy on ubuntu linux just type
-apt install python-astropy astropy-utils pyfits-utils python-astropy-doc
+# you need astropy installed, on gnu/linux ubuntu 18.04 could be just
+sudo apt install python python3 python-astropy python3-astropy
+# for a more general installation
+sudo apt install python python-astropy python3 python3-astropy astro.py astropy-utils pyfits-utils python-astropy-doc
 #you can search for more astropy related packages in the ubuntu repository with
 apt-cache search astropy
 #more info at https://www.astropy.org and https://github.com/astropy
