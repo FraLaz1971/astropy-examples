@@ -8,11 +8,11 @@ tbl010 = ascii.read("YOC_dummy010.csv", header_start=0, data_start=1,  delimiter
 tbl020 = ascii.read("YOC_dummy020.csv", header_start=0, data_start=1,  delimiter=",")
 tbl030 = ascii.read("YOC_dummy030.csv", header_start=0, data_start=1,  delimiter=",")
 
-print tbl010.colnames
+print(tbl010.colnames)
 print(tbl010['RA'])
 print(tbl010['Dec'])
 
-print tbl020.colnames
+print(tbl020.colnames)
 print(tbl020['RA'])
 print(tbl020['Dec'])
 
