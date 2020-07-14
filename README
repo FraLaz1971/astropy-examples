@@ -13,3 +13,7 @@ apt-cache search astropy
 #more info at https://www.astropy.org and https://github.com/astropy
 #to run, just type from the commandline
 python plot_sources_010.py
+#or 
+python3 plot_sources_020.py
+#(python3 gives an error on plot_sources_010.py)
+
